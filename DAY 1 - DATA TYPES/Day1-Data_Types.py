@@ -4,7 +4,7 @@
 
 i = 4
 d = 4.0
-s = 'HackerRank '
+s = 'Yellow '
 
 # Read and save an integer, double, and String to your variables.
 in_int = int(input())
@@ -17,3 +17,13 @@ print(i+in_int)
 print(round(d+in_double, 1)) # rounded to 1 decimal
 # Concatenate and print the String variables on a new line
 print(s + in_str)
+
+# Sample Input
+# 12
+# 4.0
+# is Lovely
+#
+# Sample Output
+# 16
+# 8.0
+# Yellow is Lovely
