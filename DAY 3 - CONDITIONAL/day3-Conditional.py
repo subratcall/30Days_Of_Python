@@ -1,3 +1,5 @@
+
+# if n is odd, print weird. if even print not weird (see readme)
 N = int(input().strip())
 
 if N % 2 == 1:
