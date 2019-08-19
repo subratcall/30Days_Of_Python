@@ -10,3 +10,5 @@ elif N <= 20:
     print('Weird')
 else:
     print('Not Weird')
+
+    # done
