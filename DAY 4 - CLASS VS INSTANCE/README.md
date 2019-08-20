@@ -8,10 +8,8 @@ and print 'Age is not valid, setting age to 0..'
 
     1. yearPasses() should increase the age instance variable by 1
     2. amIOld() should perform the following conditional actions:
-            *If age < 13 print "you are young" 
-
-, print You are young..
-If
-and
-, print You are a teenager..
-Otherwise, print You are old..
+            * If age < 13 print "you are young.."
+            * If age >= 13 and age < 18, print "you are a teenager.."  
+            * otherwise print "You are old.." 
+            
+            
