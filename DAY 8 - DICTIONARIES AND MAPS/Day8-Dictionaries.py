@@ -15,5 +15,10 @@ for i in range(n):
 
 print('Query: which name you want to look?:')
 query = sys.stdin.readline().strip()
-
+while query:
+    if query in phone_book.keys():
+        print(query + ' = ' + phone_book.get(query))
+    else:
+        print('Not found')
+    query = sys.stdin.readline().strip()
 
